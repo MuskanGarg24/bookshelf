@@ -36,7 +36,7 @@ Personal Bookshelf is a React application that allows users to search for books 
 
    ```bash
    git clone https://github.com/MuskanGarg24/bookshelf.git
-   cd personal-bookshelf
+   cd bookshelf
    ```
 
 2. **Install dependencies**:
