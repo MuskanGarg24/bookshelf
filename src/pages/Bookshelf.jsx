@@ -31,7 +31,9 @@ const Bookshelf = () => {
             </Link>
           </div>
         )}
-        <h1 className="text-3xl text-center mx-auto md:mt-0 mt-9">My Bookshelf</h1>
+        <h1 className="text-3xl text-center mx-auto md:mt-0 mt-9">
+          My Bookshelf
+        </h1>
       </div>
       {bookshelf.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-7">
@@ -40,7 +42,6 @@ const Bookshelf = () => {
               key={index}
               book={book}
               buttonText="Remove from Bookshelf"
-              buttonColor="red"
               onClick={() => removeFromBookshelf(book.key)}
             />
           ))}

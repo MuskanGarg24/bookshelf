@@ -91,7 +91,6 @@ const BookSearch = () => {
               key={book.key}
               book={book}
               buttonText="Add to My Bookshelf"
-              buttonColor="blue"
               onClick={() => addToBookshelf(book)}
             />
           ))}
